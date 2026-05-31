@@ -1,0 +1,42 @@
+
+.eb-garamond-text {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+body {
+    padding-left: 100px;
+}
+
+img {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* key change */
+}
+
+.content {
+    margin-left: 20px; /* space between image and text */
+}
+
+p {
+    font-size: 18px;
+}
+
+.ig-link {
+    font-size: 32px;
+    text-decoration: none;
+    color: #E1306C;
+}
+
+.ig-link i {
+    margin-right: 5px;
+}
