@@ -1,4 +1,4 @@
-## Artist Website
+# Artist Website
 
 Personal portfolio site for Monica Kumaran, writer.
 
