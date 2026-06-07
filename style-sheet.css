@@ -25,16 +25,19 @@
 }
 
 a {
-    color: rgba(195, 101, 243, 0.8);
+    color: rgba(195, 101, 243, 1);
+    text-decoration: none;
+
 }
 
 a:hover {
-    color: rgba(195, 101, 243, 1);
+    color: rgba(195, 101, 243, 0.4);
+    text-decoration: none;
+
 }
 
 a:visited {
-    color: rgba(150, 70, 200, 0.6);
-    text-decoration: none;
+    color: rgba(150, 70, 200, 0.8);
 }
 
 h1 {
