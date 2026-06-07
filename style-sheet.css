@@ -1,9 +1,40 @@
+@media (max-width: 600px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+}
 
-.eb-garamond-text {
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.eb-garamond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.eb-garamond-bio {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: rgba(195, 101, 243, 0.8);
+}
+
+a:hover {
+    color: rgba(195, 101, 243, 1);
+}
+
+a:visited {
+    color: rgba(150, 70, 200, 0.6);
+    text-decoration: none;
 }
 
 h1 {
@@ -20,11 +51,11 @@ img {
 
 .container {
     display: flex;
-    align-items: flex-start; /* key change */
+    align-items: flex-start;
 }
 
 .content {
-    margin-left: 20px; /* space between image and text */
+    margin-left: 20px;
 }
 
 p {
@@ -34,7 +65,7 @@ p {
 .ig-link {
     font-size: 32px;
     text-decoration: none;
-    color: #E1306C;
+    color: #E1306C !important;
 }
 
 .ig-link i {

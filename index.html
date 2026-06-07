@@ -1,6 +1,9 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Monica Kumaran</title>
+
         <style>
         @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
         </style>   
@@ -8,27 +11,53 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link rel="icon" href="icon.svg" type="image/svg+xml">
 
+        <base target="_blank">
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
+              link.setAttribute("rel", "noopener noreferrer");
+            });
+          });
+        </script>
+
     </head>
     <body>
         <br />
-        <h1 class="eb-garamond-text">Monica Kumaran</h1>
+        <h1 class="eb-garamond">Monica Kumaran</h1>
         <div class="container">
             <img src="IMG_1293.JPG" style="width:300px;" />
-            <p class ="content eb-garamond-text">
-                I am a Bay Area artist residing on the edge of the sciences and the humanities. 
+            <div class ="content eb-garamond-bio">
+                I am a Bay Area artist residing on the edge of the sciences and the humanities. <br />
+                I love a healthy dose of feminism, fabulism, and "what the f" moments. <br />
+                Below is a list of my work chronologically ordered. <br />
+                SS demarks short story, P poetry, CNF creative nonfiction. <br />
                 <br />
-                Below is a list of my work chronologically ordered. 
-                <br /> <br />
-                <a href="https://sites.google.com/view/open-fruit/issue-7">Moon Poem & Code Poetry (2026)</a>
-                <br />  
-            </p>       
+                <div style="
+                height: 250px;
+                overflow-y: auto;
+                padding: 15px 20px;
+                line-height: 1.8;
+                ">
+                <p><a href="https://sites.google.com/view/open-fruit/issue-7">Moon Poem &amp; Code Poetry — P</a></p>
+                <p><a href="novak-letter.pdf">In memoriam Magistri Novak, qui vidit quod ego nunc video (self-published) — CNF</a></p>
+                <!--<p>The Last Great Experiment (Please Never Read This) — P</p>
+                <p>Eternal Lovers (Start Here) — SS</p>
+                <p>Ichor Corrodes the Soul, Did You Know? — SS</p>
+                <p>The Reign of The Jackal Queen — SS</p>
+                <p>All Women Start Off As Girls — SS</p>
+                <p>I Purvey Purple/Origins/Ovaries — P</p>
+                <p>California Dreaming — SS</p>
+                <p>Financial Freedom, On the Rocks — SS</p>-->
+                </div>
+            </div>       
         </div>  
         <br />
-        <p class="eb-garamond-text">
+        <p class="eb-garamond">
             <a href="https://instagram.com/monicakumaran.ink" target="_blank" class="ig-link">
                 <i class="fa-brands fa-instagram"></i> 
             </a> 
-            Follow me on Instagram!
+            New work announced on social media!
         </p>
     </body>
 </html>
