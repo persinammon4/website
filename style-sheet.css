@@ -91,12 +91,11 @@ p {
     font-size: 18px;
 }
 
-.ig-link {
-    font-size: 32px;
-    text-decoration: none;
-    color: #E1306C !important;
+a[href*="monicakumaran.substack.com"] {
+  opacity: 1;
+  transition: opacity 0.2s ease;
 }
 
-.ig-link i {
-    margin-right: 5px;
+a[href*="monicakumaran.substack.com"]:hover {
+  opacity: 0.8;
 }
