@@ -1,0 +1,101 @@
+@media (max-width: 600px) {
+    body {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container img {
+        width: 200px !important;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    div {
+        text-align: center;
+    }
+}
+
+.eb-garamond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.eb-garamond-bio {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: rgba(195, 101, 243, 1);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgba(195, 101, 243, 0.4);
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: rgba(150, 70, 200, 0.8);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+body {
+    padding-left: 100px;
+}
+
+img {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a[href*="monicakumaran.substack.com"] {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+a[href*="monicakumaran.substack.com"]:hover {
+  opacity: 0.8;
+}

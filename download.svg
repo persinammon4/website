@@ -1,0 +1,29 @@
+<svg width="220" height="220" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Black background -->
+  <rect width="200" height="200" fill="black"></rect>
+
+  <style>
+    .mk {
+      fill: none;
+      stroke: white;
+      stroke-width: 8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+
+  <!-- Optically centered MK -->
+  <path class="mk" d="
+      M32 150
+      L32 55
+      L77 120
+      L122 55
+      L122 190
+      L122 140
+      L167 90
+      L122 140
+      L167 190
+    "></path>
+
+</svg>
