@@ -99,3 +99,19 @@ a[href*="monicakumaran.substack.com"] {
 a[href*="monicakumaran.substack.com"]:hover {
   opacity: 0.8;
 }
+
+#selectedWorksBtn {
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    padding: 6px 16px;
+    margin-bottom: 12px;
+    background: #ee7a45;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#selectedWorksBtn:hover {
+    background: #d96634;
+}
