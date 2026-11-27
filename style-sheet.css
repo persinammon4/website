@@ -108,7 +108,6 @@ a[href*="monicakumaran.substack.com"]:hover {
     background: transparent;
     border: 1px solid #2F5D62;
     color: black;
-    border: none;
     border-radius: 4px;
     cursor: pointer;
 }
