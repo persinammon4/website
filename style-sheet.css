@@ -113,5 +113,5 @@ a[href*="monicakumaran.substack.com"]:hover {
 }
 
 #selectedWorksBtn:hover {
-    background: #AAF0D1;
+    opacity: 0.8;
 }
