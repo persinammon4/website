@@ -19,8 +19,32 @@
               link.setAttribute("rel", "noopener noreferrer");
             });
           });
+            
+        let selectedWorksActive = false;
+    
+        function toggleSelectedWorks() {
+            selectedWorksActive = !selectedWorksActive;
+    
+            const works = document.querySelectorAll(
+                '#worksList .un-selected-work'
+            );
+    
+            const button = document.getElementById(
+                'selectedWorksBtn'
+            );
+    
+            works.forEach(work => {
+                work.style.display = selectedWorksActive
+                    ? 'none'
+                    : 'inline';
+            });
+    
+            button.textContent = selectedWorksActive
+                ? 'Show All Works'
+                : 'Selected Works';
+        }
         </script>
-
+    
     </head>
     <body>
         <br />
@@ -40,33 +64,35 @@
                 Notable publishers include foofaraw.<br />
                 SS demarks short story, P poetry, FF flash fiction, CNF creative nonfiction. <br />
                 <br />
+                <button id="selectedWorksBtn" onclick="toggleSelectedWorks()">
+                Selected Works
+                </button>
                 <div style="
                 height: 250px;
                 overflow-y: auto;
                 padding: 15px 20px;
                 line-height: 1.8;
                 ">
-                Code Poetry &amp; Moon Poem — P
-                <br />Cat-Fu — Micro FF (Humor), Reprint, Reprint
-                <br />Eternal Lovers, Ichor Corrodes the Soul, Did You Know?, Namebearer of the Dead — SS
-                <br />Financial Freedom, On the Rocks — SS
-                <br />All Women Start Off As Girls — FF
-                <br />Palette Prompt — Digital Humanities
-                <br />Purple — P
-                <br />Origins — P
-                <br />DUCK PLUMP FOMO (Humor) — CNF
-                <br />Maryam — Micro FF
-                <br />In memoriam Magistri Novak, cuius lumen instar solis fulgebat — CNF<!-- current link is "novak-letter.pdf" -->
-                <br />California Dreaming — FF
-                <br />The Nature of Poetry (Humor) — P
-                <br />Go Big, Go Home (Humor) — Micro FF
-                <br />The Last Great Experiment — P
-                <br />Favorite of the Two Goddesses — P
-                <br />Ovaries — P
-                <br />On Moving To Another Country, Again (Humor) — P
-                <br />Erin and Eric, Sophie — Micro FF
-                <br />Hell Hole — SS
-                <br />Working Abroad — CNF
+                <span class="selected-work">Code Poetry &amp; Moon Poem — P</span>
+                <br /><span class="selected-work">Cat-Fu — Micro FF (Humor), Reprint, Reprint</span>
+                <br /><span class="selected-work">Eternal Lovers, Ichor Corrodes the Soul, Did You Know?, Namebearer of the Dead — SS</span>
+                <br /><span class="selected-work">Financial Freedom, On the Rocks — SS</span>
+                <br /><span class="selected-work">All Women Start Off As Girls — FF</span>
+                <br /><span class="selected-work">Palette Prompt — Digital Humanities</span>
+                <br /><span class="selected-work">Purple — P</span>
+                <br /><span class="selected-work">Origins — P</span>
+                <br /><span class="selected-work">DUCK PLUMP FOMO (Humor) — CNF</span>
+                <br /><span class="selected-work">Maryam — Micro FF</span>
+                <br /><span class="selected-work">In memoriam Magistri Novak, cuius lumen instar solis fulgebat — CNF<!-- current link is "novak-letter.pdf" --></span>
+                <br /><span class="un-selected-work">California Dreaming — FF</span>
+                <br /><span class="un-selected-work">The Nature of Poetry (Humor) — P</span>
+                <br /><span class="selected-work">Go Big, Go Home (Humor) — Micro FF</span>
+                <br /><span class="un-selected-work">The Last Great Experiment — P</span>
+                <br /><span class="un-selected-work">Favorite of the Two Goddesses — P</span>
+                <br /><span class="un-selected-work">Ovaries — P</span>
+                <br /><span class="un-selected-work">On Moving To Another Country, Again (Humor) — P</span>
+                <br /><span class="un-selected-work">Erin and Eric, Sophie — Micro FF</span>
+                <br /><span class="un-selected-work">Working Abroad — CNF</span>
                 </div>
             </div>       
         </div>  
